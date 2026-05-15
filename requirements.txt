@@ -1,0 +1,11 @@
+arxiv
+openreview-py
+requests
+sentence-transformers
+bertopic
+umap-learn
+pandas
+supabase
+python-dotenv
+streamlit
+pyvis

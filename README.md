@@ -1,1 +1,1 @@
-# Atlas
+# ARIA - Academic Research Intelligence Atlas
