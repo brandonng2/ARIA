@@ -9,7 +9,7 @@ create table papers (
   neurips_score           float,
   citation_count          integer,
   influential_citations   integer,
-  tldr                    text,        -- add this
+  tldr                    text,
   topic_id                integer,
   topic_label             text,
   topic_color             text,
@@ -31,4 +31,4 @@ create table topics (
 -- indexes
 create index on papers using ivfflat (embedding vector_cosine_ops);
 create index on papers using gin (to_tsvector('english', title || ' ' || abstract));
-create index on papers (topic_id);   -- add this
+create index on papers (topic_id);
